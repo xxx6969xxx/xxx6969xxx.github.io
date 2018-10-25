@@ -13,6 +13,17 @@ header {
   color: white;
 }
 
+footer {
+  max-width: 60em;
+  margin: auto;
+  background-color: #111d;
+  color: white;
+}
+
+footer * {
+  padding: 1em;
+}
+
 header h1 {padding-left: 1.1em;padding-top: 0.5em}
 header h3 {padding-left: 2em;padding-bottom: 1em}
 
