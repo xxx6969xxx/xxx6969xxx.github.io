@@ -1,0 +1,16 @@
+
+.mainmaindiv {
+  max-width: 5em;
+  background-color: #333;
+}
+.maindiv{
+  max-width: 4em;
+  float: right;
+  background-color: #880;
+}
+
+.sidediv {
+  float:left;
+  max-width: 1em;
+  background-color: red;
+}
