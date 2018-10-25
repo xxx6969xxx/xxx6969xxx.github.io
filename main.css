@@ -1,15 +1,15 @@
-*{margin: 0;}
+*{margin: 0;font-family: 'Open Sans', sans-serif;}
 
 body {
-  height: 100%;
+  height: 100vh;
   background-image: url("meowth.png");
-  background-size: contain;
+  background-size: 100% 100%;
 }
 
 header {
   max-width: 60em;
   margin: auto;
-  background-color: #333;
+  background-color: #333d;
   color: white;
 }
 
@@ -19,15 +19,25 @@ header h3 {padding-left: 2em;padding-bottom: 1em}
 .mainmaindiv {
   width: 60em;
   margin:auto;
+  overflow: hidden;
 }
 .maindiv{
   width: 45em;
   float: right;
-  background-color: #959595;
+  background-color: #959595dd;
+}
+.maindiv * {
+  margin: 0.5em;
 }
 
 .sidediv {
   float: left;
   width: 15em;
-  background-color: #858585;
+  height: 100%;
+  background-color: #858585DD;
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+.sidediv * {
+  margin: 0.5em;
 }
