@@ -1,16 +1,33 @@
+*{margin: 0;}
+
+body {
+  height: 100%;
+  background-image: url("meowth.png");
+  background-size: contain;
+}
+
+header {
+  max-width: 60em;
+  margin: auto;
+  background-color: #333;
+  color: white;
+}
+
+header h1 {padding-left: 1.1em;padding-top: 0.5em}
+header h3 {padding-left: 2em;padding-bottom: 1em}
 
 .mainmaindiv {
-  max-width: 5em;
-  background-color: #333;
+  width: 60em;
+  margin:auto;
 }
 .maindiv{
-  max-width: 4em;
+  width: 45em;
   float: right;
-  background-color: #880;
+  background-color: #959595;
 }
 
 .sidediv {
-  float:left;
-  max-width: 1em;
-  background-color: red;
+  float: left;
+  width: 15em;
+  background-color: #858585;
 }
