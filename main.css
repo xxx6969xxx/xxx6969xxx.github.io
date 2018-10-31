@@ -42,10 +42,22 @@ header h1 {
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
-    1px 1px 0 #000; 
+    1px 1px 0 #000;
   outline: 5px black;
 }
 header h3 {padding-left: 2em;padding-bottom: 1em}
+
+a:visited, a:link {
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+.sidediv h3 {
+  color: #5a2729dd;
+}
 
 .mainmaindiv {
   width: 60em;

@@ -27,6 +27,22 @@ footer * {
 header h1 {padding-left: 1.1em;padding-top: 0.5em;}
 header h3 {padding-left: 2em;padding-bottom: 1em;padding-top:1em;}
 
+img {
+  width: 20em;
+}
+
+a:visited, a:link {
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+.sidediv h3 {
+  color: #5a2729dd;
+}
+
 .mainmaindiv {
   width: 60em;
   margin:auto;
