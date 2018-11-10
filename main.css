@@ -84,3 +84,24 @@ a:hover {
 .sidediv * {
   margin: 0.5em;
 }
+
+.apic {
+  width: 47%;
+  margin: 0;
+  padding: 0;
+}
+.bpic {
+  width: 30%;
+  margin: 0;
+  padding: 0;
+}
+
+.awidth {
+  width: 47%;
+  float: left;
+}
+
+.bwidth {
+  width: 30%;
+  float: left;
+}
